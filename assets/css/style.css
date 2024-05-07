@@ -3,7 +3,7 @@
 :root{
     font-size:62.5%;
     --vert-foncé:#395144;
-    --vert:#4e6c50;
+    --vert:#4f9129;
     --blanc-cassé:#f0ebce;
     --sable:#c8ae7d;
     --maron:#765827;
@@ -14,13 +14,30 @@ body{
 }
 
 /* header */
+nav{
+    background-color: var(--sable);
+}
 
 .logo-nav{
+    width: 10rem;
+}
+.navbar-toggler{
+    background-color: #4f9129;
+    width: 100px;
 }
 
 /* ***************************************************** */
 
 /* main */
+
+/* section:first-child */
+
+h1 img{
+    width: 1000px;
+    filter: blur();
+    background-clip: ;
+}
+
 
 /* ***************************************************** */
 
