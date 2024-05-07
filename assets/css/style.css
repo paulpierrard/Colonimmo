@@ -35,7 +35,7 @@ nav{
 h1 img{
     width: 1000px;
     filter: blur();
-    background-clip: ;
+    filter: drop-shadow(0 -6mm 4mm rgb(57, 57, 57));
 }
 
 
