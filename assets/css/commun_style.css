@@ -8,14 +8,23 @@
 }
 
 body{
+    
     background-color: var(--blanc-cassé);
 }
 
 /* header et navbar */
 nav{
-    background-color: var(--sable);
+    font-size: large;
 }
-
+nav a{
+    text-shadow: 5px 0 5px rgba(0, 0, 0, 0.8);
+    color: var(--blanc-cassé) !important;
+}
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
 .logo-nav{
     width: 10rem;
 }
