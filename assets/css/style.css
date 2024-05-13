@@ -38,6 +38,12 @@ h1 img{
     filter: drop-shadow(0 -6mm 4mm rgb(57, 57, 57));
 }
 
+.carousel-inner h2{
+    font-size: 6rem;
+    padding-bottom: 4rem;
+    color: var(--blanc-cassé);
+}
+
 
 /* ***************************************************** */
 
