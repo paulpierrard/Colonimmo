@@ -1,7 +1,3 @@
-*{
-    box-sizing: border-box;
-}
-
 :root{
     font-size:62.5%;
     --vert-foncé:#395144;
@@ -15,24 +11,19 @@ body{
     background-color: var(--blanc-cassé);
 }
 
-
-/* ***************************************************** */
-
-/* main */
-
-/* section:first-child */
-
-h1 img{
-    width: 1000px;
-    filter: blur();
-    filter: drop-shadow(0 -6mm 4mm rgb(57, 57, 57));
+/* header et navbar */
+nav{
+    background-color: var(--sable);
 }
 
-.carousel-inner h2{
-    font-size: 6rem;
-    padding-bottom: 4rem;
-    color: var(--blanc-cassé);
+.logo-nav{
+    width: 10rem;
 }
+.navbar-toggler{
+    background-color: #4f9129;
+    width: 100px;
+}
+
 
 
 /* ***************************************************** */
