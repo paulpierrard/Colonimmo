@@ -22,7 +22,7 @@ nav a {
 }
 header{
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     width: 100%;
 }
 .logo-nav{
@@ -40,9 +40,13 @@ header{
 }
 #right-nav button{
     font-size: small;
-    color: var(--vert);
-    font-weight: bold;
+    color: var(--blanc-cassé);
+    font-weight: 500;
 }
+#right-nav button:hover{
+    color: var(--vert);
+}
+
 #right-nav input{
     background-color: var(--sable);
     border: var(--sable);
@@ -59,6 +63,15 @@ header{
     background-color: var(--vert-foncé);
     border-radius: 0 20px 20px 20px;
     box-shadow: 5px 6px 10px 0 rgba(0, 0, 0, 0.847);
+}
+.nav-item a:hover{
+    color: var(--vert)!important;
+    
+}
+.dropdown-menu a:hover {
+    background-color: #395144;
+    border-radius: 0 20px 20px 20px; 
+
 }
 
 
