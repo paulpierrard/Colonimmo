@@ -41,6 +41,7 @@ header{
 #right-nav button{
     font-size: small;
     color: var(--vert);
+    font-weight: bold;
 }
 #right-nav input{
     background-color: var(--sable);
@@ -57,6 +58,7 @@ header{
 .dropdown-menu{
     background-color: var(--vert-foncé);
     border-radius: 0 20px 20px 20px;
+    box-shadow: 5px 6px 10px 0 rgba(0, 0, 0, 0.847);
 }
 
 
