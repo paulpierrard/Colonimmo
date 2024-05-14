@@ -16,7 +16,7 @@ body{
 nav{
     font-size: large;
 }
-nav a{
+nav a {
     text-shadow: 5px 0 5px rgba(0, 0, 0, 0.8);
     color: var(--blanc-cassé) !important;
 }
@@ -32,7 +32,32 @@ header{
     background-color: #4f9129;
     width: 100px;
 }
-
+#right-nav{
+    background-color: var(--vert-foncé);
+    border-radius: 10px 0 10px 10px;
+    box-shadow: 5px 6px 10px 0 rgba(0, 0, 0, 0.847);
+    padding: 9px;
+}
+#right-nav button{
+    font-size: small;
+    color: var(--vert);
+}
+#right-nav input{
+    background-color: var(--sable);
+    border: var(--sable);
+    border-radius: 10px 0 10px 10px;
+    
+}
+#left-nav{
+    background-color: var(--vert-foncé);
+    border-radius: 0 10px 10px 10px;
+    box-shadow: 5px 6px 10px 0 rgba(0, 0, 0, 0.847);
+    margin: 10px;
+}
+.dropdown-menu{
+    background-color: var(--vert-foncé);
+    border-radius: 0 20px 20px 20px;
+}
 
 
 /* ***************************************************** */
