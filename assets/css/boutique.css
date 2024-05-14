@@ -1,0 +1,33 @@
+:root{
+    font-size:62.5%;
+    --vert-foncé:#395144;
+    --vert:#4f9129;
+    --blanc-cassé:#f0ebce;
+    --sable:#c8ae7d;
+    --maron:#765827;
+}
+
+/* body */
+
+/* section n°1 */
+
+#section1{
+   
+}
+h1{
+    text-align: center;
+    padding: 12rem;
+    font-size: 10rem;
+    text-transform: uppercase;
+
+}
+
+.boutique-titre {
+    background-image: url(../img/ant-gbc13fb987_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10rem;
+    border: solid 8px var(--vert-foncé);
+    border-radius: 20px;
+    box-shadow: 5px 6px 10px 0 rgba(0, 0, 0, 0.847);
+}

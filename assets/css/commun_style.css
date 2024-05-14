@@ -22,11 +22,7 @@ nav a {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-header{
-    position: fixed;
-    z-index: 10;
-    width: 100%;
-}
+
 .logo-nav{
     width: 10rem;
 }
