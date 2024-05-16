@@ -6,20 +6,16 @@
     --sable:#c8ae7d;
     --maron:#765827;
 }
-
 /* body */
 
 /* section n°1 */
 
-#section1{
-   
-}
 h1{
     text-align: center;
     padding: 12rem;
     font-size: 10rem;
     text-transform: uppercase;
-
+    text-shadow:1px 4px var(--sable)
 }
 
 .boutique-titre {
@@ -31,3 +27,53 @@ h1{
     border-radius: 20px;
     box-shadow: 5px 6px 10px 0 rgba(0, 0, 0, 0.847);
 }
+section:nth-child(3){
+    margin-inline: 11rem 11rem;
+}
+aside{
+    background-color: var(--maron);
+    border: solid 3px rgb(60, 42, 14);
+    border-radius: 15px;
+    box-shadow: 5px 6px 10px 0 rgba(0, 0, 0, 0.847);
+}
+aside a{
+    text-decoration: none;
+    color: var(--blanc-cassé)
+}
+.les-liens div div{
+    margin-inline: 40px 40px;
+    margin-bottom: 40px;
+    height: 150px;
+    border: solid 5px var(--vert-foncé);
+    border-radius: 15px;
+    box-shadow: 5px 6px 10px 0 rgba(0, 0, 0, 0.847);
+    
+}
+.les-liens div div a{
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--vert-foncé);
+    font-size: xx-large;
+    text-shadow:1px 4px var(--sable)
+}
+#les-liens1{
+    background-image: url(../img/fourmi-jardin.jpg);
+    background-size: 500px;
+    background-position: center;
+}
+#les-liens2{
+    background-image: url(../img/fourmilierearboricole.jpg);
+    background-size: 500px;
+    background-position: center;
+}
+#les-liens3{
+    background-image: url(../img/fourmis-04.webp);
+    background-size: 500px;
+    background-position: center;
+}
+#les-liens4{
+    background-image: url(../img/fourmis_lasius_sp.webp);
+    background-size: 500px;
+    background-position: center;
+}
+
