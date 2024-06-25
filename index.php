@@ -101,14 +101,28 @@
     <section>
     </section>
     <footer>
-      <div>
-        <div><img src="assets/img/logo_bg_sombre.png" alt="logogo blanc du site"></div>
-        <div></div>
-        <div></div>
-        <div>
-          <p>social</p>
-          <p>social</p>
-          <p>social</p>
+      <div class="d-flex flex col-xl-12">
+        <div class="col-xl-3">
+          <img src="assets/img/logo_bg_sombre.png" alt="logogo blanc du site">
+        </div>
+        <div class="col-xl-3">
+          <ul>
+            <li><a href=""></a>eziej</li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+          </ul>
+        </div>
+        <div class="col-xl-3">
+          <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li>
+
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-3">
+          <p>dscsdfqfddsqssdx</p>
         </div>
       </div>
     </footer>

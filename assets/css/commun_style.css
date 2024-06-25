@@ -77,4 +77,15 @@ nav a {
 
 /* footer */
 
+footer{
+    background-color: #765827;
+}
+footer img {
+    width: 200px;
+}
+ul{
+    list-style: none;
+
+}
+
 /* **************************************************** */
